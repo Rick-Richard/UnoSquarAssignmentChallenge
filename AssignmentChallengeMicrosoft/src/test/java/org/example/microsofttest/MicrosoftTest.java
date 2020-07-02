@@ -28,16 +28,8 @@ public class MicrosoftTest extends WebDriverSetup {
         microsoftTest.visualStudioValidateElements();
     }
 
-  /*  @Test(priority = 1)
-    public void AmazonCreateYourAccountTest() {
-        HomePage home = new HomePage(driver);
-        AmazonCreateYourAccountPage accountPage = new AmazonCreateYourAccountPage(driver);
-        home.navigateToURL(microsofturl);
-        accountPage.createYourAccountPage();
-    }
-*/
-/*    @AfterTest
+    @AfterTest
     public void webDriverQuit() {
         TearDown();
-    }*/
+    }
 }
